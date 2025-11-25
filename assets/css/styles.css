@@ -8,6 +8,46 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.p-top-64 {
+    padding-top: 64px !important;
+}
+
+.p-bottom-64 {
+    padding-bottom: 64px !important;
+}
+
+.p-top-32 {
+    padding-top: 32px !important;
+}
+
+.p-bottom-32 {
+    padding-bottom: 32px !important;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.col-full {
+    width: 50%;
+}
+
 #main {
     position: relative;
 }
@@ -23,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1;
 }
 
 .nav {
@@ -144,8 +184,108 @@ body {
 
 /* content */
 #content {
+    width: 100%;
+}
+
+.content-section {
+    max-width: 800px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content-header {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 5px;
+}
+
+.content-subheader {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.about-text {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.about-list {
+    margin: 15px 0;
+}
+
+.about-item {
+    list-style-type: none;
+}
+
+.about-name {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.about-img {
+    width: 154px;
+    height: 154px;
+    border-radius: 4px;
+}
+
+/* tour section */
+.tour-section {
+    background-color: #000;
+}
+
+.tour-section .content-header,
+.tour-section .content-subheader {
+    color: #fff;
+}
+
+.ticket-list {
+    background-color: #fff;
+}
+
+.ticket-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 16px;
+}
+
+.ticket-text {
+    color: #757575;
+    font-size: 15px;
+}
+
+.ticket-sold {
+    margin-left: 16px;
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px 6px;
+}
+
+.ticket-list li:last-child {
+    border-bottom: none;
+    justify-content: space-between;
 
 }
+
+.ticket-number {
+    margin-right: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 8px;
+}
+
+
 
 #map {
 
