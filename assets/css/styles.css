@@ -45,7 +45,7 @@ body {
 }
 
 .col-full {
-    width: 50%;
+    width: 100%;
 }
 
 #main {
@@ -284,6 +284,113 @@ body {
     border-radius: 50%;
     padding: 2px 8px;
 }
+
+/* Tour Location  */
+.location-list {
+
+}
+
+.location-item {
+}
+
+.location-img {
+    width: 245px;
+    height: 184px;
+    object-fit: cover;
+    display: block;
+}
+
+.location-img:hover {
+    opacity: 0.6;
+}
+
+.location-item__body {
+    background-color: #fff;
+    padding: 15px 16px;
+    text-align: left;
+}
+
+.location-name {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.location-time {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.location-desc {
+    display: block;
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.location-btn {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 11px 20px;
+    font-size: 15px;
+}
+
+.location-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.contact-body {
+
+}
+
+.info-list {
+
+}
+
+.info-item {
+    list-style-type: none;
+    text-align: left;
+    padding: 4px 0;
+}
+
+.info-item i {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.info-text {
+    font-size: 18px;
+}
+
+.input-top {
+    margin-bottom: 8px;
+}
+
+.contact-input input {
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact-btn {
+    margin: 16px 0;
+    float: right;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 11px 17px;
+    font-size: 15px;
+}
+
+.contact-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
 
 
 
