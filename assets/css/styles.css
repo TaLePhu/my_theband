@@ -391,13 +391,45 @@ body {
     cursor: pointer;
 }
 
-
-
-
+/* Map css */
 #map {
 
 }
 
-#footer {
+.map-img {
+    width: 100%;
+}
 
+/* Footer css */
+#footer {
+    text-align: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.footer-item {
+    list-style-type: none;
+}
+
+.footer-item i {
+    font-size: 24px;
+    color: #666666;
+}
+
+.footer-item:hover i {
+    opacity: 0.6;
+}
+
+.footer-text {
+    margin: 15px 0;
+    color: #666666;
+}
+
+.footer-text a {
+    color: #666666;
+    
 }
