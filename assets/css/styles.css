@@ -433,3 +433,122 @@ body {
     color: #666666;
     
 }
+
+/* Modal css */
+.modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 900px;
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.modal-header {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #009788;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-tilte {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 17px 19px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.modal-close:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 0 16px;
+}
+
+.modal-body input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #c0c0c0;
+    border: 1px solid #ccc;
+}
+
+.modal-input__text {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.modal-btn-pay {
+    border: none;
+    background-color: #009788;
+    width: 100%;
+    margin: 16px 0;
+    padding: 19px 6px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.modal-btn-pay i {
+    
+}
+
+.modal-btn-pay:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.btn-close-modal {
+    border: none;
+    background-color: #f44236;
+    color: #fff;
+    padding: 11px 18px;
+    font-size: 15px;
+}
+
+.btn-close-modal:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-bottom__helps {
+    font-size: 15px;
+}
+
+.modal-bottom__helps a {
+    color: #2196F3;
+}
