@@ -83,8 +83,9 @@ body {
     line-height: 46px;
     color: #fff;
     text-decoration: none;
-    padding: 0px 34px;
+    padding: 0px 18px;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .nav > li:hover > a {
@@ -327,7 +328,7 @@ body {
     line-height: 1.4;
 }
 
-.location-btn {
+.buy-tickets-btn {
     border: none;
     background-color: #000;
     color: #fff;
@@ -335,7 +336,7 @@ body {
     font-size: 15px;
 }
 
-.location-btn:hover {
+.buy-tickets-btn:hover {
     background-color: #ccc;
     color: #000;
     cursor: pointer;
@@ -443,15 +444,31 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none; /* hide default*/
     justify-content: center;
     align-items: center;
+    opacity: 0;
 }
 
 .modal-content {
     width: 900px;
     min-height: 400px;
     background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* Thiết lập ban đầu cho hiệu ứng trượt */
+    transform: translateY(-100%); 
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out; /* Thiết lập transition */
+}
+
+/* 3. Hiệu ứng khi Modal hiển thị */
+/* Lớp CSS này được thêm/bỏ bằng JavaScript */
+.modal.show { /* added by js*/
+    display: flex;
+    opacity: 1;
+}
+
+.modal.show .modal-content {
+    transform: translateY(0);
 }
 
 .modal-header {
