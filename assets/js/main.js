@@ -3,6 +3,9 @@ const modal = document.getElementById('modal-ticket');
 const btns = document.querySelectorAll('.buy-tickets-btn'); // Nút 'Buy Tickets' ngoài modal
 const closeBtns = document.querySelectorAll('.modal-close, .btn-close-modal'); // Các nút đóng
 
+const sMenuBtn = document.querySelector('.s-menu-btn');
+const navMenu = document.querySelector('.nav');
+
 // 2. Hàm mở Modal
 
 const openModal = () => {
@@ -34,4 +37,10 @@ window.onclick = function(event) {
     if (event.target == modal) {
         closeModal();
     }
+}
+
+// Đóng mở nav khi click và btn Hamburger
+sMenuBtn.onclick = function() {
+    // Thêm class 'open' vào nav để hiển thị menu
+    navMenu.classList.toggle('open'); 
 }

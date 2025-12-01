@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="main">
@@ -41,6 +42,9 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </span>
+            <span class="s-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </span>
         </div>
 
         <div id="slider">
@@ -62,17 +66,17 @@
                 </p>
                 <!-- about-list -->
                 <ul class="about-list row p-top-32 p-bottom-32">
-                    <li class="about-item col col-third">
+                    <li class="about-item col col-third s-col-full text-center">
                         <p class="about-name">Name</p>
-                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img">
+                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img s-mb-16">
                     </li>
-                    <li class="about-item col col-third">
+                    <li class="about-item col col-third s-col-full text-center">
                         <p class="about-name">Name</p>
-                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img">
+                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img s-mb-16">
                     </li>
-                    <li class="about-item col col-third">
+                    <li class="about-item col col-third s-col-full text-center">
                         <p class="about-name">Name</p>
-                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img">
+                        <img src="./assets/img/about/about.jpg" alt="about" class="about-img s-mb-16">
                     </li>
                 </ul>
             </div>
@@ -101,44 +105,45 @@
 
                     <!-- Tour Location -->
                      <ul class="location-list row p-top-32 p-bottom-32">
-                        <li class="location-item col col-third">
+                        <li class="location-item col col-third s-col-full s-mb-16">
                             <img src="./assets/img/tour/newyork.jpg" alt="newyork" class="location-img">
                             <div class="location-item__body">
                                 <h3 class="location-name">New York</h3>
                                 <p class="location-time">Fri 27 Nov 2016</p>
                                 <span class="location-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</span>
-                                <button class="buy-tickets-btn">Buy Tickets</button>
+                                <button class="buy-tickets-btn s-btn-full">Buy Tickets</button>
                             </div>
                         </li>
-                        <li class="location-item col col-third">
+                        <li class="location-item col col-third s-col-full s-mb-16">
                             <img src="./assets/img/tour/paris.jpg" alt="paris" class="location-img">
                             <div class="location-item__body">
                                 <h3 class="location-name">Paris</h3>
                                 <p class="location-time">Sat 28 Nov 2016</p>
                                 <span class="location-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</span>
-                                <button class="buy-tickets-btn">Buy Tickets</button>
+                                <button class="buy-tickets-btn s-btn-full">Buy Tickets</button>
                             </div>
                         </li>
-                        <li class="location-item col col-third">
+                        <li class="location-item col col-third s-col-full s-mb-16">
                             <img src="./assets/img/tour/sanfran.jpg" alt="sanfrancisco" class="location-img">
                             <div class="location-item__body">
                                 <h3 class="location-name">San Francisco</h3>
                                 <p class="location-time">Sun 29 Nov 2016</p>
                                 <span class="location-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</span>
-                                <button class="buy-tickets-btn">Buy Tickets</button>
+                                <button class="buy-tickets-btn s-btn-full">Buy Tickets</button>
                             </div>
                         </li>
                      </ul>
                 </div>
             </div>
 
+            <!-- Contact Section -->
             <div class="content-section p-top-64 p-bottom-64">
                 <h3 class="content-header">CONTACT</h3>
                 <p class="content-subheader">Fan? Drop a note!</p>
 
                 <!-- Contact Body -->
                  <div class="contact-body row p-top-32 p-bottom-32">
-                    <ul class="info-list">
+                    <ul class="info-list col col-half s-col-full s-mb-16">
                         <li class="info-item">
                             <i class="fa-solid fa-location-dot"></i>
                             <span class="info-text">Chicago, US</span>
@@ -152,13 +157,13 @@
                             <span class="info-text">Email: mail@mail.com</span>
                         </li>
                     </ul>
-                    <div class="contact-input col col-half">
+                    <div class="contact-input col col-half s-col-full">
                         <div class="input-top row">
-                            <input type="text" class="col col-half" placeholder="Name">
-                            <input type="text" class="col col-half" placeholder="Email">
+                            <input type="text" class="col col-half s-col-full" placeholder="Name">
+                            <input type="text" class="col col-half s-col-full" placeholder="Email">
                         </div>
                         <input type="text" class="col-full" placeholder="Message">
-                        <button class="contact-btn">SEND</button>
+                        <button class="contact-btn s-btn-full">SEND</button>
                     </div>
                  </div>
             </div>
